@@ -1,0 +1,16 @@
+--- a/configs/example/fs.py     Thu Jun 02 20:34:39 2016 +0100
++++ b/configs/example/fs.py     Fri Jun 10 15:37:29 2016 -0700
+@@ -144,6 +144,13 @@
+     if is_kvm_cpu(TestCPUClass) or is_kvm_cpu(FutureClass):
+         test_sys.vm = KvmVM()
+
++    test_sys.gpu = NoMaliGpu(
++        gpu_type="T760",
++        ver_maj=0, ver_min=0, ver_status=1,
++        int_job=118, int_mmu=119, int_gpu=120,
++        pio_addr=0x2b400000,
++        pio=test_sys.membus.master)
++
+     if options.ruby:
+         # Check for timing mode because ruby does not support atomic accesses
+         if not (options.cpu_type == "detailed" or options.cpu_type == "timing"):

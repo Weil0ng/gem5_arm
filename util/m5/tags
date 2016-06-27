@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDSYMBOL	m5op_alpha.S	/^#define ADDSYMBOL(r1,r2) INST(m5_op, r1, r2, addsymbol_func)$/;"	d
+AN_AQ	m5op_alpha.S	/^#define AN_AQ INST(m5_op, an_aq, 0, annotate_func)$/;"	d
+AN_BEGIN	m5op_alpha.S	/^#define AN_BEGIN INST(m5_op, an_begin, 0, annotate_func)$/;"	d
+AN_BSM	m5op_alpha.S	/^#define AN_BSM INST(m5_op, an_bsm, 0, annotate_func)$/;"	d
+AN_DQ	m5op_alpha.S	/^#define AN_DQ INST(m5_op, an_dq, 0, annotate_func)$/;"	d
+AN_END	m5op_alpha.S	/^#define AN_END INST(m5_op, an_end, 0, annotate_func)$/;"	d
+AN_ESM	m5op_alpha.S	/^#define AN_ESM INST(m5_op, an_esm, 0, annotate_func)$/;"	d
+AN_GETID	m5op_alpha.S	/^#define AN_GETID INST(m5_op, an_getid, 0, annotate_func)$/;"	d
+AN_IDENTIFY	m5op_alpha.S	/^#define AN_IDENTIFY INST(m5_op, an_identify, 0, annotate_func)$/;"	d
+AN_L	m5op_alpha.S	/^#define AN_L INST(m5_op, an_l, 0, annotate_func)$/;"	d
+AN_PQ	m5op_alpha.S	/^#define AN_PQ INST(m5_op, an_pq, 0, annotate_func)$/;"	d
+AN_Q	m5op_alpha.S	/^#define AN_Q INST(m5_op, an_q, 0, annotate_func)$/;"	d
+AN_RQ	m5op_alpha.S	/^#define AN_RQ INST(m5_op, an_rq, 0, annotate_func)$/;"	d
+AN_SQ	m5op_alpha.S	/^#define AN_SQ INST(m5_op, an_sq, 0, annotate_func)$/;"	d
+AN_WE	m5op_alpha.S	/^#define AN_WE INST(m5_op, an_we, 0, annotate_func)$/;"	d
+AN_WF	m5op_alpha.S	/^#define AN_WF INST(m5_op, an_wf, 0, annotate_func)$/;"	d
+AN_WS	m5op_alpha.S	/^#define AN_WS INST(m5_op, an_ws, 0, annotate_func)$/;"	d
+ARM	m5op_alpha.S	/^#define ARM(reg) INST(m5_op, reg, 0, arm_func)$/;"	d
+CHECKPOINT	m5op_alpha.S	/^#define CHECKPOINT(r1, r2) INST(m5_op, r1, r2, ckpt_func)$/;"	d
+DEBUGBREAK	m5op_alpha.S	/^#define DEBUGBREAK INST(m5_op, 0, 0, debugbreak_func)$/;"	d
+DEBUGBREAK	m5op_sparc.S	/^#define DEBUGBREAK INST(debugbreak_func, 0, 0, 0)$/;"	d
+DUMPRST_STATS	m5op_alpha.S	/^#define DUMPRST_STATS(r1, r2) INST(m5_op, r1, r2, dumprststats_func)$/;"	d
+DUMP_STATS	m5op_alpha.S	/^#define DUMP_STATS(r1, r2) INST(m5_op, r1, r2, dumpstats_func)$/;"	d
+END	m5op_alpha.S	/^#define END(func)     \\$/;"	d
+END	m5op_sparc.S	/^#define END(func)         \\$/;"	d
+FOREACH_M5OP	m5ops.h	101;"	d
+FOREACH_M5_ANNOTATION	m5ops.h	126;"	d
+INITPARAM	m5op_alpha.S	/^#define INITPARAM(reg) INST(m5_op, reg, 0, initparam_func)$/;"	d
+INST	m5op_alpha.S	/^#define INST(op, ra, rb, func) \\$/;"	d
+INST	m5op_sparc.S	/^#define INST(func, rs1, rs2, rd) \\$/;"	d
+Java_jni_gem5Op_arm	jni_gem5Op.c	/^Java_jni_gem5Op_arm(JNIEnv *env, jobject obj, jlong j_address)$/;"	f
+Java_jni_gem5Op_checkpoint	jni_gem5Op.c	/^Java_jni_gem5Op_checkpoint(JNIEnv *env, jobject obj,$/;"	f
+Java_jni_gem5Op_debugbreak	jni_gem5Op.c	/^Java_jni_gem5Op_debugbreak(JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_dump_1stats	jni_gem5Op.c	/^Java_jni_gem5Op_dump_1stats(JNIEnv *env, jobject obj,$/;"	f
+Java_jni_gem5Op_dumpreset_1stats	jni_gem5Op.c	/^Java_jni_gem5Op_dumpreset_1stats(JNIEnv *env, jobject obj,$/;"	f
+Java_jni_gem5Op_exit	jni_gem5Op.c	/^Java_jni_gem5Op_exit(JNIEnv *env, jobject obj, jlong j_ns_delay)$/;"	f
+Java_jni_gem5Op_fail	jni_gem5Op.c	/^Java_jni_gem5Op_fail(JNIEnv *env, jobject obj, jlong j_ns_delay, jlong j_code)$/;"	f
+Java_jni_gem5Op_initparam	jni_gem5Op.c	/^Java_jni_gem5Op_initparam(JNIEnv *env, jobject obj, jlong j_key_str1,$/;"	f
+Java_jni_gem5Op_panic	jni_gem5Op.c	/^Java_jni_gem5Op_panic(JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_quiesce	jni_gem5Op.c	/^Java_jni_gem5Op_quiesce(JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_quiesceCycle	jni_gem5Op.c	/^Java_jni_gem5Op_quiesceCycle(JNIEnv *env, jobject obj, jlong j_cycles)$/;"	f
+Java_jni_gem5Op_quiesceNs	jni_gem5Op.c	/^Java_jni_gem5Op_quiesceNs(JNIEnv *env, jobject obj, jlong j_ns)$/;"	f
+Java_jni_gem5Op_quiesceTime	jni_gem5Op.c	/^Java_jni_gem5Op_quiesceTime(JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_reset_1stats	jni_gem5Op.c	/^Java_jni_gem5Op_reset_1stats(JNIEnv *env, jobject obj,$/;"	f
+Java_jni_gem5Op_rpns	jni_gem5Op.c	/^Java_jni_gem5Op_rpns(JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_switchcpu	jni_gem5Op.c	/^Java_jni_gem5Op_switchcpu (JNIEnv *env, jobject obj)$/;"	f
+Java_jni_gem5Op_wakeCPU	jni_gem5Op.c	/^Java_jni_gem5Op_wakeCPU(JNIEnv *env, jobject obj, jlong j_cpuid)$/;"	f
+Java_jni_gem5Op_work_1begin	jni_gem5Op.c	/^Java_jni_gem5Op_work_1begin(JNIEnv *env, jobject obj,$/;"	f
+Java_jni_gem5Op_work_1end	jni_gem5Op.c	/^Java_jni_gem5Op_work_1end(JNIEnv *env, jobject obj,$/;"	f
+LEAF	m5op_alpha.S	/^#define LEAF(func)    \\$/;"	d
+LEAF	m5op_sparc.S	/^#define LEAF(func)                \\$/;"	d
+LOADSYMBOL	m5op_alpha.S	/^#define LOADSYMBOL(reg) INST(m5_op, reg, 0, loadsymbol_func)$/;"	d
+M5EXIT	m5op_alpha.S	/^#define M5EXIT(reg) INST(m5_op, reg, 0, exit_func)$/;"	d
+M5EXIT	m5op_sparc.S	/^#define M5EXIT INST(exit_func, 0, 0, 0)$/;"	d
+M5OP	m5op_arm.S	/^#define M5OP(name, func, subfunc) m5op_func name, func, subfunc$/;"	d
+M5OP	m5op_arm_A64.S	/^#define M5OP(name, func, subfunc) m5op_func name, func, subfunc$/;"	d
+M5_ANNOTATION	m5op_arm.S	/^#define M5_ANNOTATION(name, ann) m5op_func name, annotate_func, ann$/;"	d
+M5_ANNOTATION	m5op_arm_A64.S	/^#define M5_ANNOTATION(name, ann) m5op_func name, annotate_func, ann$/;"	d
+M5_AN_FL_BAD	m5op.h	83;"	d
+M5_AN_FL_LINK	m5op.h	84;"	d
+M5_AN_FL_NONE	m5op.h	82;"	d
+M5_AN_FL_RESET	m5op.h	85;"	d
+MainFunc	m5.c	/^struct MainFunc$/;"	s	file:
+PANIC	m5op_alpha.S	/^#define PANIC INST(m5_op, 0, 0, panic_func)$/;"	d
+PANIC	m5op_sparc.S	/^#define PANIC INST(panic_func, 0, 0, 0)$/;"	d
+QUIESCE	m5op_alpha.S	/^#define QUIESCE INST(m5_op, 0, 0, quiesce_func)$/;"	d
+QUIESCECYC	m5op_alpha.S	/^#define QUIESCECYC(r1) INST(m5_op, r1, 0, quiescecycle_func)$/;"	d
+QUIESCENS	m5op_alpha.S	/^#define QUIESCENS(r1) INST(m5_op, r1, 0, quiescens_func)$/;"	d
+QUIESCETIME	m5op_alpha.S	/^#define QUIESCETIME INST(m5_op, 0, 0, quiescetime_func)$/;"	d
+READFILE	m5op_alpha.S	/^#define READFILE INST(m5_op, 0, 0, readfile_func)$/;"	d
+READFILE	m5op_sparc.S	/^#define READFILE INST(readfile_func, 0, 0, 0)$/;"	d
+RESET_STATS	m5op_alpha.S	/^#define RESET_STATS(r1, r2) INST(m5_op, r1, r2, resetstats_func)$/;"	d
+RET	m5op_alpha.S	/^#define RET           \\$/;"	d
+RPNS	m5op_alpha.S	/^#define RPNS INST(m5_op, 0, 0, rpns_func)$/;"	d
+SIMPLE_OP	m5op_alpha.S	/^#define SIMPLE_OP(_f, _o)       \\$/;"	d
+SWITCHCPU	m5op_alpha.S	/^#define SWITCHCPU INST(m5_op, 0, 0, switchcpu_func)$/;"	d
+TWO_BYTE_OP	m5op_x86.S	/^#define TWO_BYTE_OP(name, number)         \\$/;"	d
+WAKE_CPU	m5op_alpha.S	/^#define WAKE_CPU(r1) INST(m5_op, r1, 0, wakecpu_func)$/;"	d
+_GNU_SOURCE	m5.c	44;"	d	file:
+__M5OP_H__	m5op.h	33;"	d
+addsymbol_func	m5ops.h	67;"	d
+all	Makefile.x86	/^all: m5$/;"	l
+an_aq	m5ops.h	94;"	d
+an_begin	m5ops.h	85;"	d
+an_bsm	m5ops.h	83;"	d
+an_dq	m5ops.h	88;"	d
+an_end	m5ops.h	86;"	d
+an_esm	m5ops.h	84;"	d
+an_getid	m5ops.h	98;"	d
+an_identify	m5ops.h	97;"	d
+an_l	m5ops.h	96;"	d
+an_pq	m5ops.h	95;"	d
+an_q	m5ops.h	87;"	d
+an_rq	m5ops.h	91;"	d
+an_sq	m5ops.h	93;"	d
+an_we	m5ops.h	90;"	d
+an_wf	m5ops.h	89;"	d
+an_ws	m5ops.h	92;"	d
+annotate_func	m5ops.h	82;"	d
+arm	jni/gem5Op.java	/^    public native void arm(long address);$/;"	m	class:gem5Op
+arm_func	m5ops.h	45;"	d
+checkpoint	jni/gem5Op.java	/^    public native void checkpoint(long ns_delay, long ns_period);$/;"	m	class:gem5Op
+ckpt_func	m5ops.h	62;"	d
+clean	Makefile.x86	/^clean:$/;"	l
+command	m5.c	/^char *command = "unspecified";$/;"	v
+debugbreak	jni/gem5Op.java	/^    public native void debugbreak();$/;"	m	class:gem5Op
+debugbreak_func	m5ops.h	65;"	d
+deprecated1_func	m5ops.h	52;"	d
+deprecated2_func	m5ops.h	53;"	d
+deprecated3_func	m5ops.h	54;"	d
+do_checkpoint	m5.c	/^do_checkpoint(int argc, char *argv[])$/;"	f
+do_dump_reset_stats	m5.c	/^do_dump_reset_stats(int argc, char *argv[])$/;"	f
+do_dump_stats	m5.c	/^do_dump_stats(int argc, char *argv[])$/;"	f
+do_exec_file	m5.c	/^do_exec_file(int argc, char *argv[])$/;"	f
+do_exit	m5.c	/^do_exit(int argc, char *argv[])$/;"	f
+do_fail	m5.c	/^do_fail(int argc, char *argv[])$/;"	f
+do_initparam	m5.c	/^do_initparam(int argc, char *argv[])$/;"	f
+do_load_symbol	m5.c	/^do_load_symbol(int argc, char *argv[])$/;"	f
+do_pin	m5.c	/^do_pin(int argc, char *argv[])$/;"	f
+do_read_file	m5.c	/^do_read_file(int argc, char *argv[])$/;"	f
+do_reset_stats	m5.c	/^do_reset_stats(int argc, char *argv[])$/;"	f
+do_sw99param	m5.c	/^do_sw99param(int argc, char *argv[])$/;"	f
+do_write_file	m5.c	/^do_write_file(int argc, char *argv[])$/;"	f
+dump_stats	jni/gem5Op.java	/^    public native void dump_stats(long ns_delay, long ns_period);$/;"	m	class:gem5Op
+dumpreset_stats	jni/gem5Op.java	/^    public native void dumpreset_stats(long ns_delay, long ns_period);$/;"	m	class:gem5Op
+dumprststats_func	m5ops.h	61;"	d
+dumpstats_func	m5ops.h	60;"	d
+exit	jni/gem5Op.java	/^    public native void exit(long ns_delay);$/;"	m	class:gem5Op
+exit_func	m5ops.h	55;"	d
+fail	jni/gem5Op.java	/^    public native void fail(long ns_delay, long code);$/;"	m	class:gem5Op
+fail_func	m5ops.h	56;"	d
+func	m5.c	/^    void (*func)(int argc, char *argv[]);$/;"	m	struct:MainFunc	file:
+func	m5op_alpha.S	/^func:$/;"	l
+func	m5op_sparc.S	/^func:$/;"	l
+gem5Op	jni/gem5Op.java	/^public class gem5Op {$/;"	c
+initparam	jni/gem5Op.java	/^    public native long initparam(long key_str1, long key_str2);$/;"	m	class:gem5Op
+initparam_func	m5ops.h	57;"	d
+jni	jni/gem5Op.java	/^package jni;$/;"	p
+loadsymbol_func	m5ops.h	58;"	d
+m5	Makefile.x86	/^m5: $(OBJS)$/;"	l
+m5_mem	m5.c	/^void *m5_mem = NULL;$/;"	v
+m5_op	m5op_alpha.S	/^#define m5_op 0x01$/;"	d
+m5_op	m5op_sparc.S	/^#define m5_op 0x2$/;"	d
+m5_op3	m5op_sparc.S	/^#define m5_op3 0x37$/;"	d
+main	m5.c	/^main(int argc, char *argv[])$/;"	f
+mainfuncs	m5.c	/^struct MainFunc mainfuncs[] = {$/;"	v	typeref:struct:MainFunc
+map_m5_mem	m5.c	/^map_m5_mem()$/;"	f	file:
+name	m5.c	/^    char *name;$/;"	m	struct:MainFunc	file:
+name	m5op_x86.S	/^name:                                     \\$/;"	l
+numfuncs	m5.c	/^int numfuncs = sizeof(mainfuncs) \/ sizeof(mainfuncs[0]);$/;"	v
+pagefault_func	m5ops.h	79;"	d
+panic	jni/gem5Op.java	/^    public native void panic();$/;"	m	class:gem5Op
+panic_func	m5ops.h	68;"	d
+parse_int_args	m5.c	/^parse_int_args(int argc, char *argv[], uint64_t ints[], int len)$/;"	f
+parse_str_args_to_regs	m5.c	/^parse_str_args_to_regs(int argc, char *argv[], uint64_t regs[], int len)$/;"	f
+progname	m5.c	/^char *progname;$/;"	v
+quiesce	jni/gem5Op.java	/^    public native void quiesce();$/;"	m	class:gem5Op
+quiesceCycle	jni/gem5Op.java	/^    public native void quiesceCycle(long cycles);$/;"	m	class:gem5Op
+quiesceNs	jni/gem5Op.java	/^    public native void quiesceNs(long ns);$/;"	m	class:gem5Op
+quiesceTime	jni/gem5Op.java	/^    public native long quiesceTime();$/;"	m	class:gem5Op
+quiesce_func	m5ops.h	46;"	d
+quiescecycle_func	m5ops.h	48;"	d
+quiescens_func	m5ops.h	47;"	d
+quiescetime_func	m5ops.h	49;"	d
+read_file	m5.c	/^read_file(int dest_fid)$/;"	f
+readfile_func	m5ops.h	64;"	d
+reserved2_func	m5ops.h	70;"	d
+reserved3_func	m5ops.h	71;"	d
+reserved4_func	m5ops.h	72;"	d
+reserved5_func	m5ops.h	73;"	d
+reset_stats	jni/gem5Op.java	/^    public native void reset_stats(long ns_delay, long ns_period);$/;"	m	class:gem5Op
+resetstats_func	m5ops.h	59;"	d
+rpns	jni/gem5Op.java	/^    public native long rpns();$/;"	m	class:gem5Op
+rpns_func	m5ops.h	50;"	d
+strto64	m5.c	75;"	d	file:
+strto64	m5.c	83;"	d	file:
+switchcpu	jni/gem5Op.java	/^    public native void switchcpu();$/;"	m	class:gem5Op
+switchcpu_func	m5ops.h	66;"	d
+syscall_func	m5ops.h	78;"	d
+usage	m5.c	/^    char *usage;$/;"	m	struct:MainFunc	file:
+usage	m5.c	/^usage()$/;"	f
+wakeCPU	jni/gem5Op.java	/^    public native void wakeCPU(long cpuid);$/;"	m	class:gem5Op
+wakecpu_func	m5ops.h	51;"	d
+work_begin	jni/gem5Op.java	/^    public native void work_begin(long workid, long threadid);$/;"	m	class:gem5Op
+work_begin_func	m5ops.h	75;"	d
+work_end	jni/gem5Op.java	/^    public native void work_end(long workid, long threadid);$/;"	m	class:gem5Op
+work_end_func	m5ops.h	76;"	d
+write_file	m5.c	/^write_file(const char *filename)$/;"	f
+writefile_func	m5ops.h	63;"	d

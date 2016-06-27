@@ -1,0 +1,37 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun 14 2016 10:31:21
+gem5 started Jun 15 2016 17:14:34
+gem5 executing on cuiwl0.mtv.corp.google.com, pid 147825
+command line: build/ARM/gem5.opt configs/example/fs.py --cpu-type=atomic --mem-type=SimpleMemory --os-type=android-kitkat --disk-image=myimage.img --machine-type=VExpress_EMM --dtb-filename=vexpress-v2p-ca15-tc1-gem5.dtb -n 1 --mem-size=1800MB
+
+Benchmarks.py 43#: None
+FSConfig 235#: 
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+binary: ['./binaries']
+disk: ['./disks']
+script: ['/usr/local/google/home/cuiwl/gem5/configs/boot']
+Benchmarks.py 43#: None
+Global frequency set at 1000000000000 ticks per second
+info: kernel located at: ./binaries/vmlinux.aarch32.ll_20131205.0-gem5
+info: Using bootloader at address 0x10
+info: Using kernel entry physical address at 0x80008000
+info: Loading DTB file: ./binaries/vexpress-v2p-ca15-tc1-gem5.dtb at address 0x88000000
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+Exiting @ tick 695822000 because user interrupt received
