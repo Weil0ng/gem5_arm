@@ -232,7 +232,6 @@ def makeArmSystem(mem_mode, machine_type, num_cpus=1, mdesc=None,
         mdesc = SysConfig()
 
     self.readfile = mdesc.script()
-    print "FSConfig 235#: {}".format(self.readfile)
     self.iobus = IOXBar()
     self.membus = MemBus()
     self.membus.badaddr_responder.warn_access = "warn"
@@ -350,7 +349,6 @@ def makeArmSystem(mem_mode, machine_type, num_cpus=1, mdesc=None,
                            "android.bootanim=0"
 
         self.boot_osflags = fillInCmdline(mdesc, cmdline)
-        print "Benchmarks.py 353#: {}".format(self.boot_osflags)
 
     if external_memory:
         # I/O traffic enters iobus

@@ -41,7 +41,6 @@ def searchpath(path, filename):
     raise IOError, "Can't find file '%s' on path." % filename
 
 def disk(filename):
-    print "SysPaths 44#: {}".format(filename)
     system()
     return searchpath(disk.path, filename)
 
@@ -50,7 +49,6 @@ def binary(filename):
     return searchpath(binary.path, filename)
 
 def script(filename):
-    print "SysPaths 52#: {}".format(filename)
     system()
     return searchpath(script.path, filename)
 
@@ -76,7 +74,6 @@ def system():
         disk.path = [joinpath(p, 'disks') for p in system.path]
     if not script.path:
         script.path = [joinpath(config_root, 'boot')]
-    print "binary: {}\ndisk: {}\nscript: {}".format(binary.path, disk.path, script.path)
 
 system.path = None
 binary.path = None

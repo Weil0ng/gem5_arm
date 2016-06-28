@@ -40,7 +40,6 @@ class SysConfig:
         self.ostype = os_type
 
     def script(self):
-        print "Benchmarks.py 43#: {}".format(self.scriptname)
         if self.scriptname:
             return script(self.scriptname)
         else:
@@ -53,7 +52,6 @@ class SysConfig:
             return '128MB'
 
     def disk(self):
-        print "Benchmarks.py 56#: {}".format(self.diskname)
         if self.diskname:
             return disk(self.diskname)
         elif buildEnv['TARGET_ISA'] == 'alpha':

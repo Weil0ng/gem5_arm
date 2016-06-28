@@ -267,9 +267,9 @@ def scriptCheckpoints(options, maxtick, cptdir):
                     m5.checkpoint(joinpath(cptdir, "cpt.%d"))
                     num_checkpoints += 1
         if options.stat_prefix:
-          shutil.copyfile("/usr/local/google/home/cuiwl/gem5/m5out/stats.txt", "/usr/local/google/home/cuiwl/gem5/m5out/stats/" + options.stat_prefix + "_" + time.strftime("%d/%m/%Y") + "_" + time.strftime("%H:%M:%S") + ".txt")
+          shutil.copyfile("/usr/local/google/home/cuiwl/gem5/m5out/stats.txt", "/usr/local/google/home/cuiwl/gem5/m5out/stats/" + options.stat_prefix + "_" + time.strftime("%Y%m%d") + "_" + time.strftime("%H:%M:%S") + ".txt")
         else:
-          shutil.copyfile("/usr/local/google/home/cuiwl/gem5/m5out/stats.txt", "/usr/local/google/home/cuiwl/gem5/m5out/stats/none" + "_" + time.strftime("%d/%m/%Y") + "_" + time.strftime("%H:%M:%S") + ".txt")
+          shutil.copyfile("/usr/local/google/home/cuiwl/gem5/m5out/stats.txt", "/usr/local/google/home/cuiwl/gem5/m5out/stats/none" + "_" + time.strftime("%Y%m%d") + "_" + time.strftime("%H:%M:%S") + ".txt")
     return exit_event
 
 def benchCheckpoints(options, maxtick, cptdir):
